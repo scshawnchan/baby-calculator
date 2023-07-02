@@ -24,7 +24,7 @@ public class App {
     private static void run() {
         // Basic Description
         System.out.println("Welcome to my calculator app. " +
-                "This app can be used to perform basic arithmetic calculations such as addition, subtraction, multiplication, division.");
+                "This app can be used to perform basic arithmetic calculations such as addition, subtraction, multiplication and division.");
         while (isCalculatorAvailable) {
             mainMenuSelection = promptForMainMenu();
             if (mainMenuSelection == ADDITION) {
